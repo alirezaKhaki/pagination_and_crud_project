@@ -1,0 +1,43 @@
+/* Pagination links */
+
+.pagin a {
+    cursor: pointer;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+
+/* Style the active/current link */
+
+.pagin a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/* Add a grey background color on mouse-over */
+
+.pagin a:hover:not(.active) {
+    background-color: dodgerblue;
+}
+
+.pagin {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.modal {
+    height: 100vh;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+input {
+    background-color: rgba(255, 251, 251, 0.7);
+    color: white;
+}
